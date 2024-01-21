@@ -10,7 +10,7 @@ const port = process.env.PORT || 5001;
 app.use(cors());
 
 // Your MongoDB connection string
-const uri = "mongodb+srv://ymalegao:hackathon@major-class.bcgywbx.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://akhilesh:slughacks@major-class.bcgywbx.mongodb.net/?retryWrites=true&w=majority"
 
 // Create a new MongoClient
 const client = new MongoClient(uri);
